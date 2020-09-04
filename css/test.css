@@ -1,0 +1,104 @@
+.bg-custom {
+  background-color: rgba(30, 77, 43, 0.95);
+}
+
+#colostate-nonmobile, #colostate-mobile, #advising-csu-non-mobile,#advising-csu-mobile {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 27px;
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+}
+
+#advising-csu-mobile {
+  font-size: 25px;
+}
+
+#colostate-mobile {
+  font-size: 25px;
+}
+
+#covid-alert {
+  background-color: #FFC117;
+  color: white;
+  border: none;
+  margin: 15px;
+}
+
+#vertical-bar-non-mobile {
+  height: 75px;
+  border-left: 1.9px solid white;
+}
+
+#vertical-bar-mobile {
+  height: 45px;
+  border-left: 1.5px solid white;
+}
+
+.jumbotron {
+  background-image: url(images/advising-team.jpg);
+  background-size: cover;
+  margin: 15px;
+}
+
+#main-content{
+  background: rgba(255, 255, 255, .8)
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+
+
+/*
+.quick-link{
+  height: 220px;
+}
+
+#r1c1 {
+  height: 220px;
+  background-color: rgba(236,13,13,.5);
+}
+
+#r1c2 {
+  height: 220px;
+  background-color: rgba(35, 21, 225, .6);
+}
+
+#r1c3 {
+  height: 220px;
+  background-color: rgba(28, 225, 21, .6);
+}
+
+#r1c4 {
+  height: 220px;
+  background-color: orange;
+}
+
+#r2c1 {
+  height: 220px;
+  background-color: yellow;
+}
+
+#r2c2 {
+  height: 220px;
+  background-color: aqua;
+}
+
+#r2c3 {
+  height: 220px;
+  background-color: tan;
+}
+
+#r2c4 {
+  height: 220px;
+  background-color: gray;
+}
+*/
+
+/*
+#main-content{
+  margin-top: 150px;
+}
+*/

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+  data-auto-a11y="true"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='landing-page.css'>
+  <link rel='stylesheet' href='about-advising.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+    <a class="navbar-brand mx-0" href="#">
+      <img class='d-none d-md-block' src='images/csu-ram-green-gold-white-logo.png' width='80' height='80'>
+      <img class='d-md-none' src='images/csu-ram-green-gold-white-logo.png' width='50' height='50'>
+    </a>
+    <p class='ml-2 my-0 d-none d-xl-block' id='colostate-nonmobile'>Colorado State University</p>
+    <p class='ml-2 my-0 d-xl-none mr-0' id='colostate-mobile'>CSU</p>
+    <div class='mx-2 d-none d-md-block' id='vertical-bar-non-mobile'></div>
+    <div class='mx-2 d-md-none' id='vertical-bar-mobile'></div>
+    <p class='my-0 d-none d-md-block mr-auto' id='advising-csu-non-mobile'>advising @ csu</p>
+    <p class='my-0 d-md-none mr-auto' id='advising-csu-mobile'>advising</p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Advisors</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href='#home' data-toggle='tab'>Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href='#what-advisors-do' data-toggle='tab'>What Advisors Do</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#who-is-my-advisor">Who is My Advisor</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#academic-resources">Other Academic Resources</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#make-an-appointment">Make an Appointment</a>
+    </li>
+  </ul>
+  
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id='home'>
+  <div class="alert alert-warning" id="covid-alert" role="alert">
+    For Covid-19 related information <a href="https://covidrecovery.colostate.edu/" class="alert-link">visit this site</a>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  
+  <div class="jumbotron">
+    <div class = 'p-2' id='main-content'>
+      <h4 id='jumbo-title'>
+        Advising at Colorado State University
+      </h4>
+      <p class="lead d-none d-sm-block">
+        Guided by CSU’s Principles of Community and the Land-Grant mission of access and equity, we achieve our vision through an integrated community of advisors who engage in intentional, holistic, and relationship-centered interactions to empower all students to navigate their unique paths and foster learning, development and academic success.
+      </p>
+      <p class='d-sm-none'>
+        Advisors offer a wide range of services like coming up with an academic plan.
+      </p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Explore Advising</a>
+      </p>
+    </div>
+  </div>
+  
+  <div class="row d-flex justify-content-md-between justify-content-around">
+    <div class="card d-flex flex-column flex-grow-1 flex-md-grow-0">
+      <img src="images/fam-web-5.jpg" class='img-fluid' alt="">
+      <div class="card-body d-flex flex-column">
+        <h3 class='card-title'>Famweb</h3>
+        <p>
+          FAMweb is a tool used by parents, family and guardians to access information about a CSU student.
+        </p>
+        <a href="https://famweb-prod.is.colostate.edu/" class="btn btn-primary mt-auto" target="_blank">Visit Famweb</a>
+      </div>
+    </div>
+
+    <div class="card d-flex flex-column flex-grow-1 flex-md-grow-0">
+      <img src="images/ram-web-2.jpg" class='img-fluid' alt="">
+      <div class="card-body d-flex flex-column">
+        <h3 class= 'card-title'>Ramweb</h3>
+        <p>A portal for students to register for classes, pay bills, view finanical aid, get a transcript and so much more</p>
+        <a href="https://ramweb.colostate.edu/registrar/Public/Login.aspx" class="btn btn-primary mt-auto" target="_blank">Visit Ramweb</a>
+      </div>
+    </div>
+
+    <div class="card d-flex flex-column flex-grow-1 flex-md-grow-0">
+      <img src="images/career-center-2.jpg" class='img-fluid' alt="">
+      <div class="card-body d-flex flex-column">
+        <h3 class='card-title'>Career Center</h3>
+        <p>The career center can help you search for a job, prep for an interview, help you network and much more!</p>
+        <a href="https://career.colostate.edu/" class="btn btn-primary mt-auto" target="_blank">Visit Carrer Center</a>
+      </div>
+    </div>
+
+    <div class="card d-flex flex-column flex-grow-1 flex-md-grow-0">
+      <img src="images/brooke-lark-BRBjShcA8D4-unsplash.jpg" class='img-fluid' alt="">
+      <div class="card-body d-flex flex-column">
+        <h3 class='card-title'>Important Dates</h3>
+        <p>Find out when classes begin, course withdrawl deadline, register for courses, when grades are posted and more</p>
+        <a href="https://calendar.colostate.edu/" class="btn btn-primary mt-auto" target="_blank">View Important Dates</a>
+      </div>
+    </div>
+    
+    <div class="card d-flex flex-column flex-grow-1 flex-md-grow-0">
+      <img src="images/student-clubs-5.jpg" class='img-fluid card-imgs' alt="">
+      <div class="card-body d-flex flex-column">
+        <h3 class='card-title'>Student Organizations</h3>
+        <p>Join a fraternity or sorority, observe the cosmos, build robots, do the tango and so much more!</p>
+        <a href="https://ramlink.campuslabs.com/engage/organizations" class="btn btn-primary mt-auto" target="_blank">Visit Student Organizations</a>
+      </div>
+    </div>
+    
+  </div>
+    </div>
+    
+    <div class="tab-pane fade" id='other'>
+      <h4>Test other</h4>
+    </div>
+  </div>
+</body>
+</html>
