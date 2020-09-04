@@ -3,9 +3,9 @@
   background-color: rgba(30, 77, 43, 0.95);
 }
 
-#colostate-nonmobile, #colostate-mobile, #advising-csu-non-mobile,#advising-csu-mobile {
+#colostate-nonmobile, #colostate-mobile, #advising-csu-non-mobile, #advising-csu-mobile {
   font-family: 'Rajdhani', sans-serif;
-  font-size: 27px;
+  font-size: 20px;
   color: white;
   text-transform: uppercase;
   display: inline;
