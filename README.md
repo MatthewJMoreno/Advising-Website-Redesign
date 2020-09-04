@@ -1,7 +1,7 @@
 # advising@colostate
 
 This project aims to redesign the current advising.colostate.edu
-![Image of Yaktocat](https://github.com/MatthewJMoreno/advisingwebsite/blob/add_image/images/advising.PNG?raw=true)
+![Old Advising Website](https://github.com/MatthewJMoreno/advisingwebsite/blob/master/images/advising.PNG?raw=true)
 
 The current goals of this redesign are currently:
 * The website's homepage will be student centered
