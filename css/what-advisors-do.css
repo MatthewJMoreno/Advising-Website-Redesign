@@ -1,0 +1,13 @@
+.offered{
+    background: rgba(0, 255, 0, .5);
+    margin: 15px;
+}
+
+.not-offered{
+    background: rgba(0, 0, 255, .5);
+    margin: 15px;
+}
+
+.offered-header, .not-offered-header{
+    text-align: center;
+}
