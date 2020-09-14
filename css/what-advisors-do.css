@@ -1,13 +1,24 @@
 .offered{
-    background: rgba(0, 255, 0, .5);
+    background: rgb(180, 243, 195);
     margin: 15px;
 }
 
 .not-offered{
-    background: rgba(0, 0, 255, .5);
+    background: rgb(255, 179, 179);
     margin: 15px;
 }
 
 .offered-header, .not-offered-header{
     text-align: center;
+}
+
+#header-hr {
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#offerings-hr {
+    width: 100%;
+    margin-top: 0px;
 }
