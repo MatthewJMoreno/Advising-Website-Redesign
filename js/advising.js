@@ -1,5 +1,9 @@
-let home = doucment.querySelector('#home');
-let whatAdvisersDoTab = document.querySelector('#what-advisors-do-tab');
-let whoIsMyAdviserTab = docment.querySelector('#who-is-my-advisor-tab');
-let makeAnAppointmentTab = docment.querySelector('#make-an-appointment-tab');
-let forAdviors = docment.querySelector('#for-advisors-tab');  
+$('.active').each(function(index) {
+    this.classList.remove('active');
+});
+
+if (document.URL.includes('home')){
+    document.querySelector('#home').classList.add('active');
+} else if (document.URL.includes('what-advisors-do')) {
+    document.querySelector('#what-advisors-do-tab').classList.add('active');
+} 
