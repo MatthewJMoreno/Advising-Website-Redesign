@@ -1,24 +1,22 @@
-.offered{
-    background: rgb(180, 243, 195);
-    margin: 15px;
+html {
+    box-sizing: border-box;
 }
 
-.not-offered{
-    background: rgb(255, 179, 179);
-    margin: 15px;
-}
-
-.offered-header, .not-offered-header{
+.what-advisors-do-panel{
+    display: flex;
+    flex: auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-#header-hr {
-    width: 80%;
-    margin-top: 0px;
-    margin-bottom: 15px;
+.advisors, .students {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
 }
-
-#offerings-hr {
-    width: 100%;
-    margin-top: 0px;
+.advising-img {
+    width: 350px;
 }
