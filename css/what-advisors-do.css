@@ -8,15 +8,66 @@ html {
     text-align: center;
     justify-content: center;
     align-items: center;
+    flex: auto;
 }
 
-.advisors, .students {
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 350px;
+    justify-content: top;
+    width: 550px;
+    height: 750px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin-right: 60px;
 }
-.advising-img {
-    width: 350px;
+
+.content:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.24em);
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 250px;
+    margin-top: 20px
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+    margin-top: 15px;
+}
+
+.advisor-img, .student-img {
+    max-width: 350px;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+    border: .1px solid rgba(0, 0, 0, .2);
+    width: 200px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    transition:all ease-in;
+}
+
+h2 {
+    margin-bottom: 20px;
 }
