@@ -21,11 +21,14 @@ html {
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 5px;
     margin-right: 60px;
+    box-shadow: none;
+    transition: 0.5s;
 }
 
 .content:hover{
     box-shadow: 0 0.5em 0.5em -0.4em black;
     transform: translateY(-0.24em);
+    transition: 0.5s;
 }
 
 .img-box{
@@ -63,9 +66,19 @@ p{
     margin-bottom: 5px;
 }
 
-p:hover{
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
-    transition:all ease-in;
+p:after{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0px;
+    background: transparent;
+    transition: width .7s ease, background-color .7s ease;   
+}
+
+p:hover:after{
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
 }
 
 h2 {
