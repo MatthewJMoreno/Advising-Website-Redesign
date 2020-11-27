@@ -20,9 +20,17 @@ html {
     height: 750px;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 5px;
-    margin-right: 60px;
     box-shadow: none;
     transition: 0.5s;
+}
+
+.content:first-of-type {
+    margin-left: 15px;
+    margin-right: 100px;
+}
+
+.content:last-of-type {
+    margin-right: 15px;
 }
 
 .content:hover{
@@ -38,6 +46,10 @@ html {
     width: 420px;
     height: 250px;
     margin-top: 20px
+}
+
+img {
+    object-fit: cover;
 }
 
 .text-box{
@@ -83,4 +95,57 @@ p:hover:after{
 
 h2 {
     margin-bottom: 20px;
+}
+
+@media (max-width: 1130px){
+    .what-advisors-do-panel {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content:first-of-type {
+        margin-left: 0px;
+        margin-right: 0px
+    }
+
+    .content:last-of-type {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    .content {
+        width: 90vw;
+        height: 820px;
+    }
+
+    .img-box {
+        width: 70vw;
+    }
+
+    .advisor-img, .student-img{
+        max-width: 300px;
+    }
+
+    .text-box {
+        width: 80vw;
+    }
+
+    #covid-alert{
+        font-size: .8rem;
+    }
+
+    .content:hover{
+        box-shadow: none;
+        transform: none;
+        transition: none;  
+    }
+
+    p:hover:after{
+        width: none;
+        background: none;
+    }
 }
