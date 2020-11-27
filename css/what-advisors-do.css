@@ -73,12 +73,12 @@ hr{
     width: 200px;
 }
 
-p{
+.underline{
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-p:after{
+.underline:after{
     content: '';
     display: block;
     margin: auto;
@@ -88,7 +88,7 @@ p:after{
     transition: width .7s ease, background-color .7s ease;   
 }
 
-p:hover:after{
+.underline:hover:after{
     width: 100%;
     background: rgba(0, 0, 0, .8);
 }
@@ -144,7 +144,7 @@ h2 {
         transition: none;  
     }
 
-    p:hover:after{
+    .underline:hover:after{
         width: none;
         background: none;
     }
