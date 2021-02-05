@@ -134,10 +134,6 @@ h2 {
         width: 80vw;
     }
 
-    #covid-alert{
-        font-size: .8rem;
-    }
-
     .content:hover{
         box-shadow: none;
         transform: none;

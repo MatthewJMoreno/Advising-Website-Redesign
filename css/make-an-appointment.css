@@ -1,0 +1,33 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  
+}
+
+#ramweb-profile {
+  border: 1px solid black;
+  max-height: 100%;
+  margin-left: 15px;
+}
+
+.where-to-find-advisor-container {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 620px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+#ramweb-explaination{
+  width: 402px;
+  margin-left: 15px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
