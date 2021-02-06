@@ -70,3 +70,9 @@ h3 {
 html {
   scroll-behavior: smooth;
 }
+
+@media (min-width: 300px) and (max-width: 600px){
+  #covid-alert{
+      font-size: .8rem;
+  }
+}
