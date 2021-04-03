@@ -8,5 +8,5 @@ The current goals of this redesign are:
 * To serve as resource for students in finding other services offered by CSU such as mental counsiling, organization and more
 * To have a more sleek, less cluttered, UI 
 
-If you'd like to see the prototype so far [CLICK HERE!](https://www.figma.com/proto/nnTdaWPHHN4fPtNbLOd3O0/Advising-Website?node-id=409%3A3586&scaling=scale-down-width&page-id=201%3A3586) and if youd like to give me feedback [TAKE THIS SURVEY](https://colostate.az1.qualtrics.com/jfe/preview/SV_4SEleh0HelZppxY?Q_CHL=preview)
+If you'd like to see the prototype so far [CLICK HERE!](https://www.figma.com/proto/nnTdaWPHHN4fPtNbLOd3O0/Advising-Website?node-id=409%3A3586&scaling=scale-down-width&page-id=201%3A3586) and if you'd like to give me feedback [TAKE THIS SURVEY](https://colostate.az1.qualtrics.com/jfe/preview/SV_4SEleh0HelZppxY?Q_CHL=preview)
 
