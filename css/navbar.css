@@ -1,0 +1,32 @@
+.header-navbar {
+  background-color: #1e4d2b;
+}
+
+#header-title, #header-title-mobile, #header-advising, #header-advising-mobile {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  display: inline;
+}
+
+#header-title {
+  font-size: 1.5rem;
+}
+
+#header-title-mobile {
+  font-size: 25px;
+}
+
+#header-vertical-bar {
+  height: 75px;
+  border-left: 1.9px solid white;
+}
+
+#header-vertical-bar-mobile {
+  height: 45px;
+  border-left: 1.5px solid white;
+}
+
+.nav-link{
+  font-size: 1rem;
+}

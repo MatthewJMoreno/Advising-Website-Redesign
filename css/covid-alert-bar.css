@@ -1,0 +1,100 @@
+.covid-alert-bar{
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+}
+
+.covid-alert-red{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 180px;
+  height: 100%;
+  background-color: #af1515;
+  margin-right: 0;
+}
+
+.covid-alert-red-small{
+  display: none;
+}
+
+.fa-exclamation-triangle{
+  padding: 0;
+  margin-left: 5px;
+  color: white;
+}
+
+#covid-19-alert {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin: 0;
+  margin-left: 10px;
+  color: white;
+}
+
+.covid-alert-yellow{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #FFC117;
+  margin-left: 0;
+}
+
+.covid-alert-yellow-small{
+  display: none;
+}
+
+#covid-19-link{
+  color: black;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.fa-angle-double-right{
+  margin-left: 7px;
+}
+
+@media (max-width: 1020px){
+  #covid-19-link{
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 860px){
+  .covid-alert-red-small{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 34px;
+    background-color: #af1515;
+  }
+
+  .covid-alert-red{
+    display: none;
+  }
+}
+
+@media (max-width: 710px){
+  .covid-alert-yellow{
+    display: none;
+  }
+
+  .covid-alert-yellow-small{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFC117;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px){
+  .fa-angle-double-right{
+    display: none;
+  }
+
+  #covid-19-link{
+    font-size: .65rem;
+  }
+}
