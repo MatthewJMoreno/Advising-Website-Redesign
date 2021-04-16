@@ -1,5 +1,8 @@
 .header-navbar {
   background-color: #1e4d2b;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #header-title, #header-title-mobile, #header-advising, #header-advising-mobile {
@@ -29,4 +32,19 @@
 
 .nav-link{
   font-size: 1rem;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover{
+  border-bottom: 3px solid white;
+}
+
+@media(max-width: 991px){
+  .nav-link:hover{    
+    border-bottom: 3px solid transparent;
+  }
+
+  .navbar-collapse{
+    margin-top: 40px;
+  }
 }

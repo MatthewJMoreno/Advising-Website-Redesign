@@ -1,3 +1,194 @@
-body {
-  font-size: 20px;
+.jumbotron{
+  display: flex;
+  padding-top: 10vh;
+  padding-bottom: 30vh;
+  background-image: url("../images/CSU_The_Oval4.jpg");
+  background-position: 0 70%;
+  background-size: cover;
+  margin-bottom: 0;
+  border-radius: 0;
+  margin-top: 135px;
+}
+
+#jumbo-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+#jumbo-content{
+  background-color: rgba(255, 255, 255, .7);
+  align-items: flex-start;
+  margin-right: 8vw;
+  margin-left: 8vw;
+  border-radius: 5px;
+}
+
+#mission-statement{
+  font-size: 1.6rem;
+}
+
+@media(max-width: 1165px){
+  #mission-statement{
+    font-size: 1.3rem;
+  }
+
+  #jumbo-title{
+    font-size: 2rem;
+  }
+
+  .jumbotron{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+}
+
+@media(max-width: 768px){
+  .jumbotron{
+    margin-top: 111px;
+  }
+}
+
+@media(max-width: 711px){
+  #mission-statement{
+    font-size: 1rem;
+  }
+
+  #jumbo-title{
+    font-size: 1.5rem;
+  }
+}
+
+.csu-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 300px;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+
+.csu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 320px;
+  width: 320px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 2px 2px 3px .2px rgba(0,0,0,.5);
+}
+
+.csu-card-top-half{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  background-color: #E2E2E2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.csu-card-title {
+  margin-top: auto;
+  margin-bottom: 0;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+.csu-card-description{
+  margin-top: 5%;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+  color: black;
+}
+
+.csu-card-button {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #1E4D2B;
+  border-radius: 5px;
+}
+
+.csu-card-button:hover {
+  background-color: #1E4D2B;
+  color: white;
+  border: 2px solid #1E4D2B;
+}
+
+.csu-card-img-container {
+  display: flex;
+  width: 90%;
+  height: 150px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#left-question-mark{
+  font-size: 180%;
+  margin-right: 10px;
+  color: #F09292;
+}
+
+#middle-question-mark{
+  font-size: 550%;
+  margin-right: 10px;
+  color: #8FBA6D;
+}
+
+#right-question-mark{
+  font-size: 300%;
+  color: #A2BADF;
+}
+
+img{
+  max-height: 80%;
+}
+
+@media(max-width: 1331px){
+  .csu-card-container{
+    height: 200%;
+    justify-content: space-evenly;
+  }
+}
+
+@media(max-width: 1165px){
+  .csu-card-container{
+    margin-top: 10px;
+  }
+}
+
+@media(max-width: 893px){
+  .csu-card-container{
+    height: 300%;
+    margin-bottom: 5%;
+  }
+}
+
+@media(max-width: 800px) {
+  .csu-card{
+    box-shadow: 0 2px 3px .2px rgba(0,0,0,.5);
+  }
+}
+
+@media(max-width: 440px){
+  .csu-card-container{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .csu-card{
+    margin-top: 5%;
+  }
 }

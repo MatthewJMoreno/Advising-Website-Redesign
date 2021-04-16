@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: row;
   height: 35px;
+  position: fixed;
+  top: 100px;
+  width: 100%;
 }
 
 .covid-alert-red{
@@ -66,14 +69,26 @@
     display:flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     min-width: 34px;
     background-color: #af1515;
+  }
+
+  .fa-exclamation-triangle{
+    margin-left: 0px;
   }
 
   .covid-alert-red{
     display: none;
   }
 }
+
+@media(max-width: 768px){
+  .covid-alert-bar{
+    top: 76px;
+  }
+}
+
 
 @media (max-width: 710px){
   .covid-alert-yellow{
