@@ -1,0 +1,141 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.resource-pills{
+  margin: 20px 0 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.card{
+  flex-direction: column;
+  font-size: 2rem;
+  min-width: 95%;
+  max-width: 95%;
+  border-radius: 30px;
+  border: 2px solid black;
+  margin: 13px 0 13px 0;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.card-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-description{
+  margin: 10px;
+  font-size: .9rem;
+}
+
+.card-btn{
+  margin: auto 0 10px 0;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  border: 2px solid #1E4D2B;
+  border-radius: 10px;
+  color: black;
+  transition: .3s;
+}
+
+.card-btn:hover {
+  color: white;
+  background-color: #1E4D2B;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.pill{
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  max-width: 40px;
+  min-width: 40px;
+  margin: 0 5px 0 5px;
+}
+
+.fa-plus-circle, .fa-minus-circle, .fa-book, .fa-handshake, .fa-users, .fa-heartbeat, .fa-money-bill-alt{
+  color:#1E4D2B;
+}
+
+a[aria-expanded='true'] .fa-plus-circle{
+  display: none;
+}
+
+a[aria-expanded='false'] .fa-minus-circle{
+  display: none;
+}
+
+#resource{
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 350px;
+  max-height: 350px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 10px 15px 10px 15px;
+}
+
+.card-img-top{
+  margin: 10px;
+  border-radius: 10px;
+  width: 280px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.alvs{
+  object-fit: contain;
+}
+
+@media(max-width: 990px){
+  #resource{
+    margin: 5px;
+  }
+
+  .card-body{
+    justify-content: space-evenly;
+  }
+}
+
+
+@media (max-width: 580px){
+  .card{
+    min-width: 98%;
+    max-width: 98%;
+  }
+
+  .pill-title{
+    font-size: 1.2rem;
+  }
+
+  .fa-book, .fa-plus-circle, .fa-minus-circle{
+    font-size: 1.3rem;
+  }
+
+  .fa-plus-circle, .fa-minus-circle {
+    margin-bottom: 3px;
+  }
+}

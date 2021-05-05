@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: row;
   height: 35px;
-  position: fixed;
-  top: 100px;
   width: 100%;
 }
 
@@ -80,12 +78,6 @@
 
   .covid-alert-red{
     display: none;
-  }
-}
-
-@media(max-width: 768px){
-  .covid-alert-bar{
-    top: 76px;
   }
 }
 

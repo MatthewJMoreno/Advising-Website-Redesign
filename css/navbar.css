@@ -1,7 +1,5 @@
 .header-navbar {
   background-color: #1e4d2b;
-  position: fixed;
-  top: 0;
   width: 100%;
 }
 
@@ -13,7 +11,7 @@
 }
 
 #header-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 #header-title-mobile {
@@ -30,13 +28,35 @@
   border-left: 1.5px solid white;
 }
 
+#header-advising{
+  font-size: 1.4rem;
+}
+
 .nav-link{
-  font-size: 1rem;
+  font-size: .9rem;
   border-bottom: 3px solid transparent;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.nav-link:first-child{
+  margin-left: 0;
+}
+
+.nav-link:last-child{
+  margin-right: 0;
+}
+
+.current-link{
+  border-bottom: 3px solid white;
 }
 
 .nav-link:hover{
   border-bottom: 3px solid white;
+}
+
+#home-tab-collapse:hover, #when-to-seek-advising-tab-collapse:hover, #find-advising-tab-collapse:hover, #additional-resources-tab-collapse:hover, #for-advisors -tab-collapse:hover {
+  color: rgb(47, 240, 111);
 }
 
 @media(max-width: 991px){
@@ -44,7 +64,13 @@
     border-bottom: 3px solid transparent;
   }
 
-  .navbar-collapse{
-    margin-top: 40px;
+  #home-tab, #when-to-seek-advising-tab, #find-advising-tab, #additional-resources-tab, #for-advisors-tab {
+    display: none;
+  }
+}
+
+@media(min-width: 992px){
+  #home-tab-collapse, #when-to-seek-advising-tab-collapse, #find-advising-tab-collapse, #additional-resources-tab-collapse, #for-advisors-tab-collapse{
+    display: none;
   }
 }
