@@ -55,7 +55,7 @@
   border-bottom: 3px solid white;
 }
 
-#home-tab-collapse:hover, #when-to-seek-advising-tab-collapse:hover, #find-advising-tab-collapse:hover, #additional-resources-tab-collapse:hover, #for-advisors -tab-collapse:hover {
+#home-tab-collapse:hover, #roles-and-responsibilities-tab-collapse:hover, #find-advising-tab-collapse:hover, #additional-resources-tab-collapse:hover, #for-advisors -tab-collapse:hover {
   color: rgb(47, 240, 111);
 }
 
@@ -64,13 +64,13 @@
     border-bottom: 3px solid transparent;
   }
 
-  #home-tab, #when-to-seek-advising-tab, #find-advising-tab, #additional-resources-tab, #for-advisors-tab {
+  #home-tab, #roles-and-responsibilities-tab, #find-advising-tab, #additional-resources-tab, #for-advisors-tab {
     display: none;
   }
 }
 
 @media(min-width: 992px){
-  #home-tab-collapse, #when-to-seek-advising-tab-collapse, #find-advising-tab-collapse, #additional-resources-tab-collapse, #for-advisors-tab-collapse{
+  #home-tab-collapse, #roles-and-responsibilities-tab-collapse, #find-advising-tab-collapse, #additional-resources-tab-collapse, #for-advisors-tab-collapse{
     display: none;
   }
 }

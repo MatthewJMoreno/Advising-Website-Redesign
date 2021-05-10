@@ -14,7 +14,6 @@ body{
   align-items: center;
 }
 
-
 .card{
   flex-direction: column;
   font-size: 2rem;
@@ -54,11 +53,13 @@ body{
   transition: .3s;
 }
 
-.card-btn:hover {
-  color: white;
-  background-color: #1E4D2B;
-  text-decoration: none;
-  transition: .3s;
+@media(hover: hover){
+  .card-btn:hover {
+    color: white;
+    background-color: #1E4D2B;
+    text-decoration: none;
+    transition: .3s;
+  }
 }
 
 .pill{
@@ -106,8 +107,12 @@ a[aria-expanded='false'] .fa-minus-circle{
   object-fit: cover;
 }
 
-.alvs{
+.alvs, .key_communities, .silver_cloud{
   object-fit: contain;
+}
+
+.my_majors, .organizations{
+  object-position: 0 85%;
 }
 
 @media(max-width: 990px){
@@ -128,14 +133,24 @@ a[aria-expanded='false'] .fa-minus-circle{
   }
 
   .pill-title{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
-  .fa-book, .fa-plus-circle, .fa-minus-circle{
-    font-size: 1.3rem;
+  .fa-book, .fa-plus-circle, .fa-minus-circle, .fa-handshake, .fa-users, .fa-heartbeat, .fa-money-bill-alt{
+    font-size: 1.5rem;
   }
 
   .fa-plus-circle, .fa-minus-circle {
     margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 480){
+  .pill-title{
+    font-size: .5rem;
+  }
+
+  .fa-book, .fa-plus-circle, .fa-minus-circle, .fa-handshake, .fa-users, .fa-heartbeat, .fa-money-bill-alt{
+    font-size: 1rem;
   }
 }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+  data-auto-a11y="true"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/roles-and-responsibilities.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/covid-alert-bar.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark header-navbar">
+    <a class="navbar-brand mx-0" href="#">
+      <img class='d-none d-md-block' src='../images/csu-ram-green-gold-white-logo.png' title='csu-logo' alt='csu-logo' width='80' height='80'>
+      <img class='d-md-none' src='../images/csu-ram-green-gold-white-logo.png' title='csu-logo' alt='csu-logo' width='50' height='50'>
+    </a>
+    <p class='ml-2 my-0 d-none d-xl-block' id='header-title'>Colorado State University</p>
+    <p class='ml-2 my-0 d-xl-none mr-0' id='header-title-mobile'>CSU</p>
+    <div class='mx-2 d-none d-md-block' id='header-vertical-bar'></div>
+    <div class='mx-2 d-md-none' id='header-vertical-bar-mobile'></div>
+    <p class='my-0 d-none d-md-block mr-auto' id='header-advising'>advising @ csu</p>
+    <p class='my-0 d-md-none mr-auto' id='header-advising-mobile'>advising</p>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="../html/home.html" id='home-tab'>Home</a>
+          <a class="nav-link active" href="../html/home.html" id='home-tab-collapse'>Home</a>
+        </li>
+        <li class="nav-item when-to-seek-advising">
+          <a class="nav-link active" href="../html/roles-and-responsibilities.html" id='roles-and-responsibilities-tab'>Roles & Responsibilities</a>
+          <a class="nav-link active" href="../html/roles-and-responsibilities.html" id='roles-and-responsibilities-tab-collapse'>Roles & Responsibilities</a>
+        </li>
+        <li class="nav-item find-advising">
+          <a class="nav-link active" href="../html/find-advising.html" id='find-advising-tab'>Find Advising</a>
+          <a class="nav-link active" href="../html/find-advising.html" id='find-advising-tab-collapse'>Find Advising</a>
+        </li>
+        <li class="nav-item additional-resources">
+          <a class="nav-link active" href="../html/additional-resources.html" id='additional-resources-tab'>Additional Resources</a>
+          <a class="nav-link active" href="../html/additional-resources.html" id='additional-resources-tab-collapse'>Additional Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#" id='for-advisors-tab'>For Advisors</a>
+          <a class="nav-link active" href="#" id='for-advisors-tab-collapse'>For Advisors</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class='covid-alert-bar'>
+    <div class='covid-alert-red-small'>
+      <i class="fas fa-exclamation-triangle"></i>
+    </div>
+    <div class='covid-alert-red'>
+      <i class="fas fa-exclamation-triangle"></i>
+      <p id='covid-19-alert'>covid-19 alert</p>
+    </div>
+    <div class='covid-alert-yellow-small'>
+      <a href="https://covid.colostate.edu/" id=covid-19-link>NEWS AND UPDATES ON COVID-19'S IMPACT ON CSU</a>
+      <i class="fas fa-angle-double-right"></i>
+    </div>
+    <div class='covid-alert-yellow'>
+      <a href="https://covid.colostate.edu/" id=covid-19-link>FOR INFORMATION AND UPDATES REGARDING COVID-19'S IMPACT ON CAMPUS, PLEASE CLICK HERE</a>
+      <i class="fas fa-angle-double-right"></i>
+    </div>
+  </div>
+
+  <div class="what-advisors-do-panel">
+    <div class="content">
+      <div class='img-box'>
+        <img src="../images/talking_other.jpg" class='advisor-img'>
+      </div>
+      <div class='text-box'>
+        <h2>Advisors</h2>
+          <p>Distribute advising codes needed for registration</p>
+          <p>Assist students in monitoring and evaluating their educational progress</p>
+          <p>Monitor designated educational transactions, e.g., course selection, changes of major, graduation requirements, etc.</p>
+          <p>Assist students in creating an academic plan consistent with their abilities, interests, and goals</p>
+          <p>Discuss relationships between academic program and career and support students in identifying career opportunities with assistance from the Career Center</p>
+          <p><i>Roles and Responsibilities may differ depending on department, college or major</i></p>
+      </div>
+    </div>
+    <div class="content">
+      <div class='img-box'>
+        <img src="../images/standing_student_other.png" class='student-img'>
+      </div>
+      <div class='text-box'>
+        <h2>Students</h2>
+          <p>Become knowledgeable of all graduation requirements and adhere to institutional policies, procedures, and deadlines</p>
+          <p>Communicate to your advisor personal values, abilities, interests, and goals</p>
+          <p>Follow through on actions identified during each advising session</p>
+          <p>Become familiar with the Career Center and other campus resources</p>
+          <p>Schedule and attend advising sessions each semester prior to course registration</p>
+      </div>
+    </div>
+  </div>
+
+  <div class='footer-background mt-auto'>
+    <div class='footer'>
+      <div class='footer-links'>
+        <a href='https://safety.colostate.edu/coronavirus/' role='button' class='btn' id='footer-covid-button'>
+          <i class="fas fa-exclamation-triangle" id='footer-exclamation'></i>
+          <p id='covid-19-information'>COVID-19 INFORMATION</p>
+        </A>
+        <a href="https://admissions.colostate.edu/" class='footer-link'>Apply to CSU</a>
+        <a href="https://www.colostate.edu/contact" class='footer-link'>Contact CSU</a>
+        <a href="https://www.colostate.edu/disclaimer" class='footer-link'>Disclaimer</a>
+        <a href="https://www.colostate.edu/equal-opportunity" class='footer-link'>Equal Opprotunity</a>
+        <a href="https://www.colostate.edu/privacy" class='footer-link'>Privacy Statement</a>
+        <img src="../images/csu-logo-oneline.svg" alt="" id='footer-logo'>
+      </div>
+      <p id='footer-copyright'><i class="far fa-copyright"></i>2021 Colorado State University, Fort Collins, Colorado 80523 USA</p>
+    </div>
+  </div>
+
+  <script src='../js/navbar.js'></script>
+</body>
+</html>
